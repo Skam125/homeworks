@@ -1,0 +1,38 @@
+* {
+    font-family: Tahoma;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    font-size: 14pt;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.fotka {
+    width: 200px;
+    float: right;
+}
+
+.redtext{
+    color: red;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+}
