@@ -1,0 +1,29 @@
+body {
+    width: 1024px;
+    margin: auto;
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: auto;
+    padding: 20px;
+}
+
+#content {
+    width: 74%;
+    float:right;
+}
+
+#footer {
+    height: 80%;
+    text-align: center;
+    clear: both;
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+
+body {
+    background-color: red;
+}

@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:5:"login";s:4:"Maks";s:8:"password";s:5:"12345";}i:1;a:2:{s:5:"login";s:4:"Skam";s:8:"password";s:5:"12345";}i:2;a:2:{s:5:"login";s:5:"admin";s:8:"password";s:5:"12345";}}

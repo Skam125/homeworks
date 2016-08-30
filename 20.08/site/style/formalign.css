@@ -1,0 +1,19 @@
+.red {
+    color: red
+}
+
+.global {
+    width: 200px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+
+.position {
+    clear:both;
+}
+
+.banned {
+    text-align: center;
+    vertical-align: bottom;
+    color: red;
+}
