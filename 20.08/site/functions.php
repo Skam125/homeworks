@@ -20,14 +20,14 @@ function userRegistration($login, $password)
     $accountArr = array();
     $loginData = unserialize(file_get_contents('data.txt'));
     $accountArr = $loginData;
+    $error = true;
     foreach ($accountArr as $value) {
         if ($login == $value['login']) {
-            $error = 1;
-        } else {
-            $error = 0;
+            $error = false;
+            break;
         }
     }
-    if ($error == 0) {
+    if ($error) {
         $accountArr[] = array(
             'login' => $login,
             'password' => $password,

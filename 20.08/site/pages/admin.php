@@ -112,14 +112,14 @@
         <input type="hidden" name="action" value="edit">
         <input type="submit" value="edit">
         <label for="edit"></label>
-    <textarea name="edit" id="edit" cols="100" rows="20">
-        <?php
+    <textarea name="edit" id="edit" cols="100" rows="20"><?php
+
         if (isset($_POST['action']) && $_POST['action'] == 'choose') {
             $_SESSION['choose']=$_POST['choose'];
             echo htmlentities(file_get_contents($_POST['choose']));
         }
-        ?>
-    </textarea>
+
+        ?></textarea>
     </form>
 
 

@@ -1,6 +1,4 @@
-<link rel="stylesheet" type="text/css" href="style/formalign.css">
-<?php
-session_start();
+<?php session_start();
 include_once 'functions.php';
 if(isset($_POST['action']) && $_POST['action'] == 'login'){
     if(userRegistration($_POST['login'], $_POST['password'])){
@@ -8,10 +6,11 @@ if(isset($_POST['action']) && $_POST['action'] == 'login'){
         $_SESSION['login'] = $_POST['login'];
         header('Location: index.php');
         die;
-    } else $errorMessage = 'Попробуйте другой логин';
+    } else { $errorMessage = 'Попробуйте другой логин'; }
 }
 
 ?>
+<link rel="stylesheet" type="text/css" href="style/formalign.css">
 <div class="global">
 <h1>Registration</h1>
 <?php if(isset($errorMessage)) {

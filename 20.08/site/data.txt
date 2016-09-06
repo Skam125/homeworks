@@ -1,1 +1,1 @@
-a:3:{i:0;a:2:{s:5:"login";s:4:"Maks";s:8:"password";s:5:"12345";}i:1;a:2:{s:5:"login";s:4:"Skam";s:8:"password";s:5:"12345";}i:2;a:2:{s:5:"login";s:5:"admin";s:8:"password";s:5:"12345";}}
+a:5:{i:0;a:2:{s:5:"login";s:4:"Maks";s:8:"password";s:5:"12345";}i:1;a:2:{s:5:"login";s:4:"Skam";s:8:"password";s:5:"12345";}i:2;a:2:{s:5:"login";s:5:"admin";s:8:"password";s:5:"12345";}i:3;a:2:{s:5:"login";s:6:"Nastya";s:8:"password";s:5:"12345";}i:4;a:2:{s:5:"login";s:4:"Skam";s:8:"password";s:3:"123";}}
